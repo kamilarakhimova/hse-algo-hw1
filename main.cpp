@@ -105,8 +105,194 @@ int main() {
         }
         myfile.close();
     }
-  
+ 
     // затем идёт вторая часть табличек и графиков (4 * 4)
+    // сначала для массивов размера 50 - 300 время и операции
+    myfile.open(folder + "From 0 to 5" + " 1.csv");
+    for (int j = 50; j <= 300; j += 50) {
+        myfile << j << ';';
+        for (int i = 1; i <= 14; ++i) {
+            int64_t time;
+            time = midTime(array1, j, i);
+            myfile << time << ';';
+        }
+        myfile << '\n';
+    }
+    myfile.close();
+    myfile.open(folder + "From 0 to 5" + " 3.csv");
+    for (int j = 50; j <= 300; j += 50) {
+        myfile << j << ';';
+        for (int i = 1; i <= 14; ++i) {
+            int elop;
+            elop = sortElOp(array1, j, i);
+            myfile << elop << ';';
+        }
+        myfile << '\n';
+    }
+    myfile.close();
+    // потом для размера 100 - 4100
+    myfile.open(folder + "From 0 to 5" + " 2.csv");
+    for (int j = 100; j <= 4100; j += 100) {
+        myfile << j << ';';
+        for (int i = 1; i <= 14; ++i) {
+            int64_t time;
+            time = midTime(array1, j, i);
+            myfile << time << ';';
+        }
+        myfile << '\n';
+    }
+    myfile.close();
+    myfile.open(folder + "From 0 to 5" + " 4.csv");
+    for (int j = 100; j <= 4100; j += 100) {
+        myfile << j << ';';
+        for (int i = 1; i <= 14; ++i) {
+            int elop;
+            elop = sortElOp(array1, j, i);
+            myfile << elop << ';';
+        }
+        myfile << '\n';
+    }
+    myfile.close();
+
+    // далее аналогично для оставшихся 3-ёх массивов
+
+    myfile.open(folder + "From 0 to 4000" + " 1.csv");
+    for (int j = 50; j <= 300; j += 50) {
+        myfile << j << ';';
+        for (int i = 1; i <= 14; ++i) {
+            int64_t time;
+            time = midTime(array2, j, i);
+            myfile << time << ';';
+        }
+        myfile << '\n';
+    }
+    myfile.close();
+    myfile.open(folder + "From 0 to 4000" + " 3.csv");
+    for (int j = 50; j <= 300; j += 50) {
+        myfile << j << ';';
+        for (int i = 1; i <= 14; ++i) {
+            int elop;
+            elop = sortElOp(array2, j, i);
+            myfile << elop << ';';
+        }
+        myfile << '\n';
+    }
+    myfile.close();
+    // потом для размера 100 - 4100
+    myfile.open(folder + "From 0 to 4000" + " 2.csv");
+    for (int j = 100; j <= 4100; j += 100) {
+        myfile << j << ';';
+        for (int i = 1; i <= 14; ++i) {
+            int64_t time;
+            time = midTime(array2, j, i);
+            myfile << time << ';';
+        }
+        myfile << '\n';
+    }
+    myfile.close();
+    myfile.open(folder + "From 0 to 4000" + " 4.csv");
+    for (int j = 100; j <= 4100; j += 100) {
+        myfile << j << ';';
+        for (int i = 1; i <= 14; ++i) {
+            int elop;
+            elop = sortElOp(array2, j, i);
+            myfile << elop << ';';
+        }
+        myfile << '\n';
+    }
+    myfile.close();
+
+    myfile.open(folder + "Almost sorted" + " 1.csv");
+    for (int j = 50; j <= 300; j += 50) {
+        myfile << j << ';';
+        for (int i = 1; i <= 14; ++i) {
+            int64_t time;
+            time = midTime(array3, j, i);
+            myfile << time << ';';
+        }
+        myfile << '\n';
+    }
+    myfile.close();
+    myfile.open(folder + "Almost sorted" + " 3.csv");
+    for (int j = 50; j <= 300; j += 50) {
+        myfile << j << ';';
+        for (int i = 1; i <= 14; ++i) {
+            int elop;
+            elop = sortElOp(array3, j, i);
+            myfile << elop << ';';
+        }
+        myfile << '\n';
+    }
+    myfile.close();
+    // потом для размера 100 - 4100
+    myfile.open(folder + "Almost sorted" + " 2.csv");
+    for (int j = 100; j <= 4100; j += 100) {
+        myfile << j << ';';
+        for (int i = 1; i <= 14; ++i) {
+            int64_t time;
+            time = midTime(array3, j, i);
+            myfile << time << ';';
+        }
+        myfile << '\n';
+    }
+    myfile.close();
+    myfile.open(folder + "Almost sorted" + " 4.csv");
+    for (int j = 100; j <= 4100; j += 100) {
+        myfile << j << ';';
+        for (int i = 1; i <= 14; ++i) {
+            int elop;
+            elop = sortElOp(array3, j, i);
+            myfile << elop << ';';
+        }
+        myfile << '\n';
+    }
+    myfile.close();
+
+    myfile.open(folder + "Reverse sorted" + " 1.csv");
+    for (int j = 50; j <= 300; j += 50) {
+        myfile << j << ';';
+        for (int i = 1; i <= 14; ++i) {
+            int64_t time;
+            time = midTime(array4, j, i);
+            myfile << time << ';';
+        }
+        myfile << '\n';
+    }
+    myfile.close();
+    myfile.open(folder + "Reverse sorted" + " 3.csv");
+    for (int j = 50; j <= 300; j += 50) {
+        myfile << j << ';';
+        for (int i = 1; i <= 14; ++i) {
+            int elop;
+            elop = sortElOp(array4, j, i);
+            myfile << elop << ';';
+        }
+        myfile << '\n';
+    }
+    myfile.close();
+    // потом для размера 100 - 4100
+    myfile.open(folder + "Reverse sorted" + " 2.csv");
+    for (int j = 100; j <= 4100; j += 100) {
+        myfile << j << ';';
+        for (int i = 1; i <= 14; ++i) {
+            int64_t time;
+            time = midTime(array4, j, i);
+            myfile << time << ';';
+        }
+        myfile << '\n';
+    }
+    myfile.close();
+    myfile.open(folder + "Reverse sorted" + " 4.csv");
+    for (int j = 100; j <= 4100; j += 100) {
+        myfile << j << ';';
+        for (int i = 1; i <= 14; ++i) {
+            int elop;
+            elop = sortElOp(array4, j, i);
+            myfile << elop << ';';
+        }
+        myfile << '\n';
+    }
+    myfile.close();
     
     delete[] array1;
     delete[] array2;
