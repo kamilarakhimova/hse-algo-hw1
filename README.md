@@ -71,7 +71,7 @@
 
 - В папке [TablesForGraphs](https://github.com/kamilarakhimova/hse-algo-hw1/blob/main/TablesForGraphs) можно увидеть результат работы [main.cpp](https://github.com/kamilarakhimova/hse-algo-hw1/blob/main/main.cpp). Тут в файлах формата ".csv" состоят все таблицы, необходимые для дальнейшего построения графиков.
 
-- Всё вышеописанное было реализовано на языке программирования C++. Далее используется Python.
+- Всё вышеописанное было реализовано на языке программирования C++. Далее использовался Python.
 
 - В файле [drawGraphs.py](https://github.com/kamilarakhimova/hse-algo-hw1/blob/main/drawGraphs.py) имеется код программы, превращавшей ".csv" файлы сортировок из [TablesForGraphs](https://github.com/kamilarakhimova/hse-algo-hw1/blob/main/TablesForGraphs) в красивые графики. Таких файлов всего 14 * 4.
 
