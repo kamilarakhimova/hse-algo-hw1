@@ -13,7 +13,7 @@
 ---
 
 Что где есть:
-> В файле [sorts.cpp](https://github.com/kamilarakhimova/hse-algo-hw1/blob/main/sorts.cpp) располагается чистый красивый код следующих 13-ти (+1) сортировок на языке C++:
+- В файле [sorts.cpp](https://github.com/kamilarakhimova/hse-algo-hw1/blob/main/sorts.cpp) располагается чистый красивый код следующих 13-ти (+1) сортировок на языке C++:
 
 ```
 1.    выбором   ✔ 
@@ -31,6 +31,9 @@
 12.   Шелла (последовательность Циура)    ✔
 13.   Шелла (последовательность Шелла)    ✔
 ```
+
+> +1, т.к. для наглядности я ещё реализовала быструю сортировку со средним опорным элементом (по условию задания она не требовалась)
+
 - В файле [sortsEO.cpp](https://github.com/kamilarakhimova/hse-algo-hw1/blob/main/sortsEO.cpp) находится похожий блок кода с 13-тью (+1) сортировками, но уже с подсчётом количества элементарных операций в них. 
 
 > EO = Elementary Operation
@@ -59,5 +62,16 @@
 
 - В файле [utils.cpp](https://github.com/kamilarakhimova/hse-algo-hw1/blob/main/utils.cpp) находятся различные вспомогательные функции, такие, как генераторы 4-ёх различных видов массивов, функция проверки корректности сортировки и функция копирования эталонного массива в рабочий.
 
-- 
-- 
+- В непосредственно [main.cpp](https://github.com/kamilarakhimova/hse-algo-hw1/blob/main/main.cpp) располагается всё самое основное. Вся работа программы начинается здесь и заканчивается тоже здесь.
+
+- В папке [TablesForGraphs](https://github.com/kamilarakhimova/hse-algo-hw1/blob/main/TablesForGraphs) можно увидеть результат работы [main.cpp](https://github.com/kamilarakhimova/hse-algo-hw1/blob/main/main.cpp). Тут в файлах формата ".csv" состоят все таблицы, необходимые для дальнейшего построения графиков.
+
+- Всё вышеописанное было реализовано на языке программирования C++. Далее используется Python.
+
+- В файле [drawGraphs.py] (https://github.com/kamilarakhimova/hse-algo-hw1/blob/main/drawGraphs.py) имеется код программы, превращавшей ".csv" файлы сортировок из [TablesForGraphs](https://github.com/kamilarakhimova/hse-algo-hw1/blob/main/TablesForGraphs) в красивые графики. Таких файлов всего 14 * 4.
+
+- В [drawBigGraphs.py] (https://github.com/kamilarakhimova/hse-algo-hw1/blob/main/drawGraphs.py) лежит код программы, превращавшей ".csv" файлы различных видов массивов из [TablesForGraphs](https://github.com/kamilarakhimova/hse-algo-hw1/blob/main/TablesForGraphs) в графики. Таких файлов всего 4 * 4.
+
+- Все графики можно найти в [Graphs] (https://github.com/kamilarakhimova/hse-algo-hw1/blob/main/Graphs) 
+
+- Ну и, напоследок, отчёт представлен [тут] (https://github.com/kamilarakhimova/hse-algo-hw1/blob/main/README.md)!
