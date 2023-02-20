@@ -81,4 +81,4 @@
 
 - Все графики можно найти в [Graphs](https://github.com/kamilarakhimova/hse-algo-hw1/blob/main/Graphs).
 
-- Ну и, напоследок, отчёт представлен [тут](https://github.com/kamilarakhimova/hse-algo-hw1/blob/main/README.md)!
+- Ну и, напоследок, отчёт представлен [тут](https://github.com/kamilarakhimova/hse-algo-hw1/blob/main/Отчёт.md)!
