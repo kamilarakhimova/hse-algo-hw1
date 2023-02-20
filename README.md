@@ -13,7 +13,7 @@
 ---
 
 Что где есть:
-- В файле [sorts.cpp](https://github.com/kamilarakhimova/hse-algo-hw1/blob/main/sorts.cpp) располагается чистый красивый код следующих 13-ти (+1) сортировок на языке C++:
+> В файле [sorts.cpp](https://github.com/kamilarakhimova/hse-algo-hw1/blob/main/sorts.cpp) располагается чистый красивый код следующих 13-ти (+1) сортировок на языке C++:
 
 ```
 1.    выбором   ✔ 
