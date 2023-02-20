@@ -68,10 +68,10 @@
 
 - Всё вышеописанное было реализовано на языке программирования C++. Далее используется Python.
 
-- В файле [drawGraphs.py] (https://github.com/kamilarakhimova/hse-algo-hw1/blob/main/drawGraphs.py) имеется код программы, превращавшей ".csv" файлы сортировок из [TablesForGraphs](https://github.com/kamilarakhimova/hse-algo-hw1/blob/main/TablesForGraphs) в красивые графики. Таких файлов всего 14 * 4.
+- В файле [drawGraphs.py](https://github.com/kamilarakhimova/hse-algo-hw1/blob/main/drawGraphs.py) имеется код программы, превращавшей ".csv" файлы сортировок из [TablesForGraphs](https://github.com/kamilarakhimova/hse-algo-hw1/blob/main/TablesForGraphs) в красивые графики. Таких файлов всего 14 * 4.
 
-- В [drawBigGraphs.py] (https://github.com/kamilarakhimova/hse-algo-hw1/blob/main/drawGraphs.py) лежит код программы, превращавшей ".csv" файлы различных видов массивов из [TablesForGraphs](https://github.com/kamilarakhimova/hse-algo-hw1/blob/main/TablesForGraphs) в графики. Таких файлов всего 4 * 4.
+- В [drawBigGraphs.py](https://github.com/kamilarakhimova/hse-algo-hw1/blob/main/drawGraphs.py) лежит код программы, превращавшей ".csv" файлы различных видов массивов из [TablesForGraphs](https://github.com/kamilarakhimova/hse-algo-hw1/blob/main/TablesForGraphs) в графики. Таких файлов всего 4 * 4.
 
-- Все графики можно найти в [Graphs] (https://github.com/kamilarakhimova/hse-algo-hw1/blob/main/Graphs) 
+- Все графики можно найти в [Graphs](https://github.com/kamilarakhimova/hse-algo-hw1/blob/main/Graphs) 
 
-- Ну и, напоследок, отчёт представлен [тут] (https://github.com/kamilarakhimova/hse-algo-hw1/blob/main/README.md)!
+- Ну и, напоследок, отчёт представлен [тут](https://github.com/kamilarakhimova/hse-algo-hw1/blob/main/README.md)!
