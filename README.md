@@ -18,7 +18,7 @@
 ---
 
 Что где когда:
-- Вот [здесь] (https://github.com/kamilarakhimova/hse-algo-hw1/blob/main/Условие КДЗ1.pdf) оставила условие задания.
+- Вот [здесь](https://github.com/kamilarakhimova/hse-algo-hw1/blob/main/Условие КДЗ1.pdf) оставила условие задания.
 
 - В файле [sorts.cpp](https://github.com/kamilarakhimova/hse-algo-hw1/blob/main/sorts.cpp) располагается чистый красивый код следующих 13-ти (+1) сортировок на языке C++:
 
